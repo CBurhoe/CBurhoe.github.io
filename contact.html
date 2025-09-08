@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Casey Burhoe</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header>
+  <h1>Casey Burhoe</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  </head>
-  <body>
-    <header>
+<main>
+  <h2>Contact Me</h2>
+  <p>Connect with me on these platforms, or send me a message directly:</p>
+  <ul>
+    <li><a href="https://linkedin.com/in/casey-burhoe" target="_blank">LinkedIn</a></li>
+    <li><a href="https://github.com/CBurhoe" target="_blank">GitHub</a></li>
+  </ul>
 
-    </header>
-    <main>
+  <form action="mailto:caseyburhoe1@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your name" required/>
+    <input type="email" name="email" placeholder="Your email" required/>
+    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</main>
 
-    </main>
-  </body>
+<footer>
+  <p>Copyright © 2025 Casey Burhoe. All Rights Reserved.</p>
+</footer>
+</body>
 </html>
