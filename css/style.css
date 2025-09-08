@@ -64,6 +64,18 @@ footer {
 }
 
 /* Utility classes */
+.site-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.site-title .logo {
+    width: 28px;
+    height: 28px;
+}
+
 .hero {
     text-align: center;
     padding: 4rem 1rem;
